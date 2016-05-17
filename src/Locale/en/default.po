@@ -1,0 +1,8 @@
+msgid "agent"
+msgstr "hh"
+
+msgid "Edit Agency"
+msgstr "hhfrddddhh"
+
+msgid "Merci de rentrer vos nom d'utilisateur et mot de passe"
+msgstr "Enter your credentials"
