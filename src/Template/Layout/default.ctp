@@ -29,10 +29,16 @@ $this->Html->css('bootstrap', ['block' => true]);
 
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
-
+    <?= $this->Html->css('jquery-ui.min.css') ?>
+    <?= $this->Html->css('jquery-ui.structure.min.css') ?>
+    <?= $this->Html->css('jquery-ui.theme.min.css') ?>
+    <?php
+    //echo $this->AssetCompress->css('all.css', $options);
+//echo $this->AssetCompress->script('jquery-combined.js');
+?>
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
+ 
 </head>
 <body>
     <nav class="top-bar expanded" data-topbar role="navigation">
@@ -50,13 +56,20 @@ $this->Html->css('bootstrap', ['block' => true]);
     </nav>
     <?= $this->Flash->render() ?>
     <div class="container clearfix">
+
         <?= $this->fetch('content') ?>
     </div>
     <footer>
     </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
+
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/jquery.loadTemplate-1.5.7.min.js"></script>
+<?= $this->fetch('jquery'); ?>
+<?= $this->fetch('script'); ?>
 </body>
 </html>

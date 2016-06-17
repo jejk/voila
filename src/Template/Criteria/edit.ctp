@@ -8,8 +8,10 @@
             )
         ?></li>
         <li><?= $this->Html->link(__('List Criteria'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Demo'), ['controller' => 'Demo', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Demo'), ['controller' => 'Demo', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Demos'), ['controller' => 'Demos', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New Demo'), ['controller' => 'Demos', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Artists'), ['controller' => 'Artists', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New Artist'), ['controller' => 'Artists', 'action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="criteria form large-9 medium-8 columns content">
@@ -17,11 +19,12 @@
     <fieldset>
         <legend><?= __('Edit Criterion') ?></legend>
         <?php
-            echo $this->Form->input('title_fr');
-            echo $this->Form->input('title_en');
-            echo $this->Form->input('title_es');
-            echo $this->Form->input('title_it');
-            echo $this->Form->input('demo._ids', ['options' => $demo]);
+            echo $this->Form->input('title');
+            echo $this->Form->input('value');
+            echo $this->Form->input('group');
+            echo $this->Form->input('subgroup');
+            echo $this->Form->input('demos._ids', ['options' => $demos]);
+            echo $this->Form->input('artists._ids', ['options' => $artists]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

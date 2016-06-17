@@ -45,8 +45,15 @@ Router::defaultRouteClass('DashedRoute');
 
 
 
+
+
+
+
 Router::scope('/', function ($routes) {
 	
+	
+	$routes->extensions(['json', 'xml', 'html']);
+
 		
 
 		
@@ -78,7 +85,7 @@ Router::scope('/', function ($routes) {
 	
 	
 	
-	Router::prefix('artist', function($routes) {
+	Router::prefix('voilartists', function($routes) {
 		 $routes->connect(
 	        '/:controller',
 	        ['action' => 'index'],
@@ -130,6 +137,16 @@ Router::scope('/', function ($routes) {
 
 
 	Router::prefix('', function($routes) {
+		
+			$routes->connect(
+		        '/',
+		        ['controller' => 'Artists'],
+		        ['action' => 'index'],
+		        ['routeClass' => 'ADmad/I18n.I18nRoute']
+		    );
+		
+		
+		
 
 			$routes->connect(
 			   '/hhfr/:slug',
@@ -168,19 +185,25 @@ Router::scope('/', function ($routes) {
 		        ['routeClass' => 'ADmad/I18n.I18nRoute']
 		    );
 			
-		
-		
+
 		
 			$routes->fallbacks('InflectedRoute');
+			
+			
 		}); 
 		
+			    Router::scope('/cache_js', function ($routes) {
+        $routes->fallbacks('InflectedRoute');
+    });
+    Router::scope('/cache_css', function ($routes) {
+        $routes->fallbacks('InflectedRoute');
+    });
 		
-
-
+	
 	
 });
 	
-	
+
    
 	
 

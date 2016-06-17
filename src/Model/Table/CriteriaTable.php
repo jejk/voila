@@ -10,7 +10,7 @@ use Cake\Validation\Validator;
 /**
  * Criteria Model
  *
- * @property \Cake\ORM\Association\BelongsToMany $Demo
+ * @property \Cake\ORM\Association\BelongsToMany $Demos
  */
 class CriteriaTable extends Table
 {
@@ -26,13 +26,19 @@ class CriteriaTable extends Table
         parent::initialize($config);
 
         $this->table('criteria');
-        $this->displayField('id');
+        $this->displayField('title');
         $this->primaryKey('id');
 
-        $this->belongsToMany('Demo', [
+        $this->belongsToMany('Demos', [
             'foreignKey' => 'criterion_id',
             'targetForeignKey' => 'demo_id',
-            'joinTable' => 'demo_criteria'
+            'joinTable' => 'criteria_demos'
+        ]);
+		
+		$this->belongsToMany('Artists', [
+            'foreignKey' => 'criterion_id',
+            'targetForeignKey' => 'artist_id',
+            'joinTable' => 'criteria_demos'
         ]);
     }
 

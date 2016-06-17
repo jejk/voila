@@ -37,7 +37,7 @@ class ArtistsController extends AppController
     public function view($id = null)
     {
         $artist = $this->Artists->get($id, [
-            'contain' => ['Agencies', 'Demo', 'DemoCriteria']
+            'contain' => ['Agencies', 'Criteria', 'Demos']
         ]);
 
         $this->set('artist', $artist);
@@ -62,7 +62,8 @@ class ArtistsController extends AppController
             }
         }
         $agencies = $this->Artists->Agencies->find('list', ['limit' => 200]);
-        $this->set(compact('artist', 'agencies'));
+        $criteria = $this->Artists->Criteria->find('list', ['limit' => 200]);
+        $this->set(compact('artist', 'agencies', 'criteria'));
         $this->set('_serialize', ['artist']);
     }
 
@@ -76,9 +77,11 @@ class ArtistsController extends AppController
     public function edit($id = null)
     {
         $artist = $this->Artists->get($id, [
-            'contain' => []
+            'contain' => ['Criteria']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
+        	
+			
             $artist = $this->Artists->patchEntity($artist, $this->request->data);
             if ($this->Artists->save($artist)) {
                 $this->Flash->success(__('The artist has been saved.'));
@@ -88,8 +91,15 @@ class ArtistsController extends AppController
             }
         }
         $agencies = $this->Artists->Agencies->find('list', ['limit' => 200]);
-        $this->set(compact('artist', 'agencies'));
+        $criteria = $this->Artists->Criteria->find('list', ['limit' => 200]);
+		$demos = $this->Artists->Demos->find('all', ['where' => 'artist_id ='.$id]);
+		//debug($demos->toArray());
+		//exit(pr($demos));
+		//$entitydemo = $demos->newEntity($this->request->data());
+        $this->set(compact('artist', 'agencies', 'criteria','demos'));
         $this->set('_serialize', ['artist']);
+		//$this->set('_serialize', ['demos']);
+		
     }
 
     /**
@@ -110,4 +120,9 @@ class ArtistsController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+
+
+
+
+
 }

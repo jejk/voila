@@ -10,6 +10,8 @@ use App\Controller\AppController;
  */
 class CriteriaController extends AppController
 {
+	
+
 
     /**
      * Index method
@@ -34,7 +36,7 @@ class CriteriaController extends AppController
     public function view($id = null)
     {
         $criterion = $this->Criteria->get($id, [
-            'contain' => ['Demo']
+            'contain' => ['Demos']
         ]);
 
         $this->set('criterion', $criterion);
@@ -58,8 +60,8 @@ class CriteriaController extends AppController
                 $this->Flash->error(__('The criterion could not be saved. Please, try again.'));
             }
         }
-        $demo = $this->Criteria->Demo->find('list', ['limit' => 200]);
-        $this->set(compact('criterion', 'demo'));
+        $demos = $this->Criteria->Demos->find('list', ['limit' => 200]);
+        $this->set(compact('criterion', 'demos'));
         $this->set('_serialize', ['criterion']);
     }
 
@@ -73,7 +75,7 @@ class CriteriaController extends AppController
     public function edit($id = null)
     {
         $criterion = $this->Criteria->get($id, [
-            'contain' => ['Demo']
+            'contain' => ['Demos']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $criterion = $this->Criteria->patchEntity($criterion, $this->request->data);
@@ -84,8 +86,8 @@ class CriteriaController extends AppController
                 $this->Flash->error(__('The criterion could not be saved. Please, try again.'));
             }
         }
-        $demo = $this->Criteria->Demo->find('list', ['limit' => 200]);
-        $this->set(compact('criterion', 'demo'));
+        $demos = $this->Criteria->Demos->find('list', ['limit' => 200]);
+        $this->set(compact('criterion', 'demos'));
         $this->set('_serialize', ['criterion']);
     }
 

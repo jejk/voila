@@ -17,7 +17,7 @@ namespace App\Controller;
 use Cake\Controller\Controller;
 use Cake\Event\Event;
 
-
+use Cake\Mailer\Email;
 use Cake\Auth\DefaultPasswordHasher;
 use App\Controller\AppController;
 
@@ -49,14 +49,18 @@ class AppController extends Controller
     {
     	
 
-	     
-	   
+
 
         parent::initialize();
   		 I18n::locale($this->request->params["lang"]);
+		 $this->loadComponent('Security');
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+		$this->loadComponent('Csrf');
 		
+
+		
+				
 		if ($this->request->prefix == 'admin') {
 
 	       $this->loadComponent('Auth', [
@@ -92,7 +96,7 @@ class AppController extends Controller
             ],
         ]);
 			
-			 $this->Auth->allow(['add']);
+			// $this->Auth->allow(['add']);
 
     }elseif ($this->request->prefix == 'user') {
 
@@ -121,7 +125,7 @@ class AppController extends Controller
             ],
         ]);
 
-    } elseif ($this->request->prefix == 'artist') {
+    } elseif ($this->request->prefix == 'voilartists') {
 
         $this->loadComponent('Auth', [
             'authenticate' => [
@@ -144,9 +148,11 @@ class AppController extends Controller
             ],
             'storage' => [
                 'className' => 'Session',
-                'key' => 'Auth.Artist',               
+                'key' => 'Auth.Voilartist',               
             ],
         ]);
+	
+		$this->Auth->allow(['add','lost_password']);
 
     }
 	
@@ -167,6 +173,8 @@ class AppController extends Controller
 	
 	    return parent::isAuthorized($user);
 	}
+	
+	
 
     /**
      * Before render callback.
@@ -182,4 +190,11 @@ class AppController extends Controller
             $this->set('_serialize', true);
         }
     }
+
+	//Compress assets
+	public $helpers = ['AssetCompress.AssetCompress'];
+	
+	
+
+
 }

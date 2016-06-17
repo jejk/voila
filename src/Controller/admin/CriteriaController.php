@@ -34,7 +34,7 @@ class CriteriaController extends AppController
     public function view($id = null)
     {
         $criterion = $this->Criteria->get($id, [
-            'contain' => ['Demo']
+            'contain' => ['Demos']
         ]);
 
         $this->set('criterion', $criterion);

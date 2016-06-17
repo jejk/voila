@@ -63,6 +63,7 @@ use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
 use Cake\Utility\Inflector;
 use Cake\Utility\Security;
+use Cake\I18n\I18n;
 
 /**
  * Read configuration file and inject configuration into various
@@ -190,14 +191,23 @@ Request::addDetector('tablet', function ($request) {
  *
  */
  
- ini_set('intl.default_locale', 'en');
+ ini_set('intl.default_locale', 'en_CA');
  
- Configure::write('I18n.languages', ['en', 'fr', 'de', 'sp']);
+ Configure::write('I18n.languages', ['en', 'fr']);
  
 
 
  
 Plugin::loadAll();
+
+// Configure I18n to use DbMessagesLoader for default domain. You need to do
+// this for each domain separately.
+I18n::config('default', function ($domain, $locale) {
+    return new \ADmad\I18n\I18n\DbMessagesLoader(
+        $domain,
+        $locale
+    );
+});
 
 
 

@@ -26,8 +26,9 @@ class ArtistsTableTest extends TestCase
     public $fixtures = [
         'app.artists',
         'app.agencies',
-        'app.demo',
-        'app.demo_criteria'
+        'app.criteria',
+        'app.demos',
+        'app.criteria_demos'
     ];
 
     /**

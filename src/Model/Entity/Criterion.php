@@ -11,7 +11,7 @@ use Cake\ORM\Entity;
  * @property string $title_en
  * @property string $title_es
  * @property string $title_it
- * @property \App\Model\Entity\Demo[] $demo
+ * @property \App\Model\Entity\Demo[] $demos
  */
 class Criterion extends Entity
 {

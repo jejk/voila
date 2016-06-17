@@ -2,8 +2,10 @@
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('New Criterion'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Demo'), ['controller' => 'Demo', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Demo'), ['controller' => 'Demo', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Demos'), ['controller' => 'Demos', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New Demo'), ['controller' => 'Demos', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('List Artists'), ['controller' => 'Artists', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('New Artist'), ['controller' => 'Artists', 'action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="criteria index large-9 medium-8 columns content">
@@ -12,10 +14,12 @@
         <thead>
             <tr>
                 <th><?= $this->Paginator->sort('id') ?></th>
-                <th><?= $this->Paginator->sort('title_fr') ?></th>
-                <th><?= $this->Paginator->sort('title_en') ?></th>
-                <th><?= $this->Paginator->sort('title_es') ?></th>
-                <th><?= $this->Paginator->sort('title_it') ?></th>
+                <th><?= $this->Paginator->sort('title') ?></th>
+                <th><?= $this->Paginator->sort('value') ?></th>
+                <th><?= $this->Paginator->sort('group') ?></th>
+                <th><?= $this->Paginator->sort('subgroup') ?></th>
+                <th><?= $this->Paginator->sort('created') ?></th>
+                <th><?= $this->Paginator->sort('modified') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -23,10 +27,12 @@
             <?php foreach ($criteria as $criterion): ?>
             <tr>
                 <td><?= $this->Number->format($criterion->id) ?></td>
-                <td><?= h($criterion->title_fr) ?></td>
-                <td><?= h($criterion->title_en) ?></td>
-                <td><?= h($criterion->title_es) ?></td>
-                <td><?= h($criterion->title_it) ?></td>
+                <td><?= h($criterion->title) ?></td>
+                <td><?= $this->Number->format($criterion->value) ?></td>
+                <td><?= h($criterion->group) ?></td>
+                <td><?= h($criterion->subgroup) ?></td>
+                <td><?= h($criterion->created) ?></td>
+                <td><?= h($criterion->modified) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $criterion->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $criterion->id]) ?>

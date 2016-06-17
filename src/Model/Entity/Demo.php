@@ -7,12 +7,14 @@ use Cake\ORM\Entity;
  * Demo Entity.
  *
  * @property int $id
- * @property int $order
- * @property string $tile
- * @property string $url
- * @property \Cake\I18n\Time $end_date
  * @property int $artist_id
  * @property \App\Model\Entity\Artist $artist
+ * @property bool $active
+ * @property int $order
+ * @property string $title
+ * @property string $customer
+ * @property string $url
+ * @property \Cake\I18n\Time $end_date
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
  * @property \App\Model\Entity\Criterion[] $criteria

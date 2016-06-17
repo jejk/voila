@@ -1,6 +1,8 @@
 <?php
 namespace App\Model\Entity;
 
+
+use Cake\Auth\DefaultPasswordHasher;
 use Cake\ORM\Entity;
 
 /**
@@ -11,13 +13,21 @@ use Cake\ORM\Entity;
  * @property \App\Model\Entity\Agency $agency
  * @property string $email
  * @property string $password
+ * @property bool $active
+ * @property \Cake\I18n\Time $expiration
+ * @property int $nbrdemo
+ * @property string $slug
  * @property string $first_name
  * @property string $last_name
+ * @property string $description
  * @property string $facebook
+ * @property string $twitter
+ * @property string $linkedin
+ * @property bool $accept_agence_edit
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
- * @property \App\Model\Entity\Demo[] $demo
- * @property \App\Model\Entity\DemoCriterium[] $demo_criteria
+ * @property \App\Model\Entity\Criterion[] $criteria
+ * @property \App\Model\Entity\Demo[] $demos
  */
 class Artist extends Entity
 {
@@ -35,4 +45,22 @@ class Artist extends Entity
         '*' => true,
         'id' => false,
     ];
+
+    /**
+     * Fields that are excluded from JSON an array versions of the entity.
+     *
+     * @var array
+     */
+    protected $_hidden = [
+        'password'
+    ];
+	
+	protected function _setPassword($password)
+    {
+        if (strlen($password) > 0) {
+          return (new DefaultPasswordHasher)->hash($password);
+        }
+    }
+	
+	
 }

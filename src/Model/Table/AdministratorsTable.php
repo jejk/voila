@@ -43,7 +43,7 @@ class AdministratorsTable extends Table
             ->integer('id')
             ->notEmpty('id', 'create');
 
- $validator
+ 		$validator
             ->email('email')
             ->allowEmpty('email');
 

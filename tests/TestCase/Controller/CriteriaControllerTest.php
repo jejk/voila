@@ -17,8 +17,11 @@ class CriteriaControllerTest extends IntegrationTestCase
      */
     public $fixtures = [
         'app.criteria',
-        'app.demo',
-        'app.demo_criteria'
+        'app.demos',
+        'app.artists',
+        'app.agencies',
+        'app.demo_criteria',
+        'app.criteria_demos'
     ];
 
     /**

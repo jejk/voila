@@ -1,0 +1,1741 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-06-16 16:34+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /Controller/AdministratorsController.php:59;84
+#: /Controller/admin/AdministratorsController.php:58;83
+msgid "The administrator has been saved."
+msgstr ""
+
+#: /Controller/AdministratorsController.php:62;87
+#: /Controller/admin/AdministratorsController.php:61;86
+msgid "The administrator could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/AdministratorsController.php:106
+#: /Controller/admin/AdministratorsController.php:105
+msgid "The administrator has been deleted."
+msgstr ""
+
+#: /Controller/AdministratorsController.php:108
+#: /Controller/admin/AdministratorsController.php:107
+msgid "The administrator could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/AdministratorsController.php:124
+#: /Controller/UsersController.php:120
+#: /Controller/admin/AdministratorsController.php:123
+#: /Controller/admin/UsersController.php:120
+#: /Controller/voilartists/ArtistsController.php:150
+msgid "Nom utilisateur ou mot de passe incorrect"
+msgstr ""
+
+#: /Controller/AgenciesController.php:55;80
+#: /Controller/admin/AgenciesController.php:55;80
+msgid "The agency has been saved."
+msgstr ""
+
+#: /Controller/AgenciesController.php:58;83
+#: /Controller/admin/AgenciesController.php:58;83
+msgid "The agency could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/AgenciesController.php:102
+#: /Controller/admin/AgenciesController.php:102
+msgid "The agency has been deleted."
+msgstr ""
+
+#: /Controller/AgenciesController.php:104
+#: /Controller/admin/AgenciesController.php:104
+msgid "The agency could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/ArtistsController.php:58;87
+#: /Controller/admin/ArtistsController.php:65;113
+#: /Controller/voilartists/ArtistsController.php:66;95
+msgid "The artist has been saved."
+msgstr ""
+
+#: /Controller/ArtistsController.php:61;90
+#: /Controller/admin/ArtistsController.php:68;116
+#: /Controller/voilartists/ArtistsController.php:69;98
+msgid "The artist could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/ArtistsController.php:117
+#: /Controller/admin/ArtistsController.php:149
+#: /Controller/voilartists/ArtistsController.php:128
+msgid "The artist has been deleted."
+msgstr ""
+
+#: /Controller/ArtistsController.php:119
+#: /Controller/admin/ArtistsController.php:151
+#: /Controller/voilartists/ArtistsController.php:130
+msgid "The artist could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/CountriesController.php:55;80
+msgid "The country has been saved."
+msgstr ""
+
+#: /Controller/CountriesController.php:58;83
+msgid "The country could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/CountriesController.php:102
+msgid "The country has been deleted."
+msgstr ""
+
+#: /Controller/CountriesController.php:104
+msgid "The country could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/CriteriaController.php:57;83
+#: /Controller/admin/CriteriaController.php:55;81
+msgid "The criterion has been saved."
+msgstr ""
+
+#: /Controller/CriteriaController.php:60;86
+#: /Controller/admin/CriteriaController.php:58;84
+msgid "The criterion could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/CriteriaController.php:106
+#: /Controller/admin/CriteriaController.php:104
+msgid "The criterion has been deleted."
+msgstr ""
+
+#: /Controller/CriteriaController.php:108
+#: /Controller/admin/CriteriaController.php:106
+msgid "The criterion could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/CriteriaDemosController.php:58;86
+msgid "The criteria demo has been saved."
+msgstr ""
+
+#: /Controller/CriteriaDemosController.php:61;89
+msgid "The criteria demo could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/CriteriaDemosController.php:111
+msgid "The criteria demo has been deleted."
+msgstr ""
+
+#: /Controller/CriteriaDemosController.php:113
+msgid "The criteria demo could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/DemoCriteriaController.php:58;88
+msgid "The demo criterium has been saved."
+msgstr ""
+
+#: /Controller/DemoCriteriaController.php:61;91
+msgid "The demo criterium could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/DemoCriteriaController.php:115
+msgid "The demo criterium has been deleted."
+msgstr ""
+
+#: /Controller/DemoCriteriaController.php:117
+msgid "The demo criterium could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/DemosController.php:66;102
+#: /Controller/admin/DemosController.php:67;108
+#: /Controller/voilartists/DemosController.php:63;101
+msgid "The demo has been saved."
+msgstr ""
+
+#: /Controller/DemosController.php:69;105
+#: /Controller/admin/DemosController.php:70;111
+#: /Controller/voilartists/DemosController.php:66;104
+msgid "The demo could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/DemosController.php:126
+#: /Controller/admin/DemosController.php:132
+#: /Controller/voilartists/DemosController.php:125
+msgid "The demo has been deleted."
+msgstr ""
+
+#: /Controller/DemosController.php:128
+#: /Controller/admin/DemosController.php:134
+#: /Controller/voilartists/DemosController.php:127
+msgid "The demo could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/RegionsController.php:58;84
+msgid "The region has been saved."
+msgstr ""
+
+#: /Controller/RegionsController.php:61;87
+msgid "The region could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/RegionsController.php:107
+msgid "The region has been deleted."
+msgstr ""
+
+#: /Controller/RegionsController.php:109
+msgid "The region could not be deleted. Please, try again."
+msgstr ""
+
+#: /Controller/UsersController.php:55;80
+#: /Controller/admin/UsersController.php:55;80
+msgid "The user has been saved."
+msgstr ""
+
+#: /Controller/UsersController.php:58;83
+#: /Controller/admin/UsersController.php:58;83
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/UsersController.php:102
+#: /Controller/admin/UsersController.php:102
+msgid "The user has been deleted."
+msgstr ""
+
+#: /Controller/UsersController.php:104
+#: /Controller/admin/UsersController.php:104
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: /Template/Administrators/add.ctp:3
+#: /Template/Administrators/edit.ctp:3
+#: /Template/Administrators/index.ctp:3;17
+#: /Template/Administrators/view.ctp:3
+#: /Template/Agencies/add.ctp:3
+#: /Template/Agencies/edit.ctp:3
+#: /Template/Agencies/index.ctp:3;19
+#: /Template/Agencies/view.ctp:3;50
+#: /Template/Artists/add.ctp:3
+#: /Template/Artists/edit.ctp:86
+#: /Template/Artists/index.ctp:3;34
+#: /Template/Artists/view.ctp:3;103;137
+#: /Template/Countries/add.ctp:3
+#: /Template/Countries/edit.ctp:3
+#: /Template/Countries/index.ctp:3;18
+#: /Template/Countries/view.ctp:3;42
+#: /Template/Criteria/add.ctp:3
+#: /Template/Criteria/edit.ctp:3
+#: /Template/Criteria/index.ctp:3;19
+#: /Template/Criteria/view.ctp:3;51
+#: /Template/CriteriaDemos/add.ctp:3
+#: /Template/CriteriaDemos/edit.ctp:3
+#: /Template/CriteriaDemos/index.ctp:3;23
+#: /Template/CriteriaDemos/view.ctp:3
+#: /Template/DemoCriteria/add.ctp:3
+#: /Template/DemoCriteria/edit.ctp:3
+#: /Template/DemoCriteria/index.ctp:3;24
+#: /Template/DemoCriteria/view.ctp:3
+#: /Template/Demos/add.ctp:3
+#: /Template/Demos/edit.ctp:3
+#: /Template/Demos/index.ctp:3;26
+#: /Template/Demos/view.ctp:3;69
+#: /Template/Regions/add.ctp:3
+#: /Template/Regions/edit.ctp:3
+#: /Template/Regions/index.ctp:3;19
+#: /Template/Regions/view.ctp:3
+#: /Template/Users/add.ctp:3
+#: /Template/Users/edit.ctp:3
+#: /Template/Users/index.ctp:3;20
+#: /Template/Users/view.ctp:3
+#: /Template/admin/Administrators/add.ctp:3
+#: /Template/admin/Administrators/edit.ctp:3
+#: /Template/admin/Administrators/index.ctp:3;17
+#: /Template/admin/Administrators/view.ctp:3
+#: /Template/admin/Agencies/add.ctp:3
+#: /Template/admin/Agencies/edit.ctp:3
+#: /Template/admin/Agencies/index.ctp:3;19
+#: /Template/admin/Agencies/view.ctp:3;50
+#: /Template/admin/Artists/add.ctp:3
+#: /Template/admin/Artists/edit.ctp:86
+#: /Template/admin/Artists/index.ctp:3;27
+#: /Template/admin/Artists/view.ctp:3;69;102
+#: /Template/admin/Criteria/add.ctp:3
+#: /Template/admin/Criteria/edit.ctp:3
+#: /Template/admin/Criteria/index.ctp:3;19
+#: /Template/admin/Criteria/view.ctp:3;49
+#: /Template/admin/Demos/add.ctp:3
+#: /Template/admin/Demos/edit.ctp:3
+#: /Template/admin/Demos/index.ctp:3;26
+#: /Template/admin/Demos/view.ctp:3;69
+#: /Template/admin/Users/add.ctp:3
+#: /Template/admin/Users/edit.ctp:3
+#: /Template/admin/Users/index.ctp:3;20
+#: /Template/admin/Users/view.ctp:3
+#: /Template/voilartists/artists/add.ctp:3
+#: /Template/voilartists/artists/edit.ctp:86
+#: /Template/voilartists/artists/index.ctp:3;34
+#: /Template/voilartists/artists/view.ctp:3;103;137
+msgid "Actions"
+msgstr ""
+
+#: /Template/Administrators/add.ctp:4
+#: /Template/Administrators/edit.ctp:10
+#: /Template/Administrators/view.ctp:6
+#: /Template/admin/Administrators/add.ctp:4
+#: /Template/admin/Administrators/edit.ctp:10
+#: /Template/admin/Administrators/view.ctp:6
+msgid "List Administrators"
+msgstr ""
+
+#: /Template/Administrators/add.ctp:10
+#: /Template/admin/Administrators/add.ctp:10
+msgid "Add Administrator"
+msgstr ""
+
+#: /Template/Administrators/add.ctp:16
+#: /Template/Administrators/edit.ctp:22
+#: /Template/Agencies/add.ctp:18
+#: /Template/Agencies/edit.ctp:24
+#: /Template/Artists/add.ctp:35
+#: /Template/Artists/edit.ctp:132
+#: /Template/Cell/Criteria/display.ctp:7;17
+#: /Template/Countries/add.ctp:17
+#: /Template/Countries/edit.ctp:23
+#: /Template/Criteria/add.ctp:21
+#: /Template/Criteria/edit.ctp:27
+#: /Template/CriteriaDemos/add.ctp:23
+#: /Template/CriteriaDemos/edit.ctp:29
+#: /Template/DemoCriteria/add.ctp:23
+#: /Template/DemoCriteria/edit.ctp:29
+#: /Template/Demos/add.ctp:26
+#: /Template/Demos/edit.ctp:32
+#: /Template/Regions/add.ctp:18
+#: /Template/Regions/edit.ctp:24
+#: /Template/Users/add.ctp:19
+#: /Template/Users/edit.ctp:25
+#: /Template/admin/Administrators/add.ctp:16
+#: /Template/admin/Administrators/edit.ctp:22
+#: /Template/admin/Agencies/add.ctp:18
+#: /Template/admin/Agencies/edit.ctp:24
+#: /Template/admin/Artists/add.ctp:26
+#: /Template/admin/Artists/edit.ctp:138
+#: /Template/admin/Criteria/add.ctp:21
+#: /Template/admin/Criteria/edit.ctp:27
+#: /Template/admin/Demos/add.ctp:26
+#: /Template/admin/Demos/edit.ctp:34
+#: /Template/admin/Users/add.ctp:19
+#: /Template/admin/Users/edit.ctp:25
+#: /Template/voilartists/artists/add.ctp:26
+#: /Template/voilartists/artists/edit.ctp:128
+#: View/Helper/FormHelper.php:1732
+msgid "Submit"
+msgstr ""
+
+#: /Template/Administrators/edit.ctp:5
+#: /Template/Administrators/index.ctp:31
+#: /Template/Agencies/edit.ctp:5
+#: /Template/Agencies/index.ctp:33
+#: /Template/Agencies/view.ctp:66
+#: /Template/Artists/edit.ctp:88
+#: /Template/Artists/index.ctp:59
+#: /Template/Artists/view.ctp:120;149
+#: /Template/Countries/edit.ctp:5
+#: /Template/Countries/index.ctp:31
+#: /Template/Countries/view.ctp:54
+#: /Template/Criteria/edit.ctp:5
+#: /Template/Criteria/index.ctp:33
+#: /Template/Criteria/view.ctp:68
+#: /Template/CriteriaDemos/edit.ctp:5
+#: /Template/CriteriaDemos/index.ctp:37
+#: /Template/DemoCriteria/edit.ctp:5
+#: /Template/DemoCriteria/index.ctp:39
+#: /Template/Demos/edit.ctp:5
+#: /Template/Demos/index.ctp:45
+#: /Template/Demos/view.ctp:82
+#: /Template/Regions/edit.ctp:5
+#: /Template/Regions/index.ctp:33
+#: /Template/Users/edit.ctp:5
+#: /Template/Users/index.ctp:37
+#: /Template/admin/Administrators/edit.ctp:5
+#: /Template/admin/Administrators/index.ctp:31
+#: /Template/admin/Agencies/edit.ctp:5
+#: /Template/admin/Agencies/index.ctp:33
+#: /Template/admin/Agencies/view.ctp:66
+#: /Template/admin/Artists/edit.ctp:88
+#: /Template/admin/Artists/index.ctp:45
+#: /Template/admin/Artists/view.ctp:84;115
+#: /Template/admin/Criteria/edit.ctp:5
+#: /Template/admin/Criteria/index.ctp:33
+#: /Template/admin/Criteria/view.ctp:64
+#: /Template/admin/Demos/edit.ctp:5
+#: /Template/admin/Demos/index.ctp:45
+#: /Template/admin/Demos/view.ctp:82
+#: /Template/admin/Users/edit.ctp:5
+#: /Template/admin/Users/index.ctp:37
+#: /Template/voilartists/artists/edit.ctp:88
+#: /Template/voilartists/artists/index.ctp:59
+#: /Template/voilartists/artists/view.ctp:120;149
+msgid "Delete"
+msgstr ""
+
+#: /Template/Administrators/edit.ctp:7
+#: /Template/Administrators/index.ctp:31
+#: /Template/Administrators/view.ctp:5
+#: /Template/Agencies/edit.ctp:7
+#: /Template/Agencies/index.ctp:33
+#: /Template/Agencies/view.ctp:5;66
+#: /Template/Artists/edit.ctp:90
+#: /Template/Artists/index.ctp:59
+#: /Template/Artists/view.ctp:5;120;149
+#: /Template/Countries/edit.ctp:7
+#: /Template/Countries/index.ctp:31
+#: /Template/Countries/view.ctp:5;54
+#: /Template/Criteria/edit.ctp:7
+#: /Template/Criteria/index.ctp:33
+#: /Template/Criteria/view.ctp:5;68
+#: /Template/CriteriaDemos/edit.ctp:7
+#: /Template/CriteriaDemos/index.ctp:37
+#: /Template/CriteriaDemos/view.ctp:5
+#: /Template/DemoCriteria/edit.ctp:7
+#: /Template/DemoCriteria/index.ctp:39
+#: /Template/DemoCriteria/view.ctp:5
+#: /Template/Demos/edit.ctp:7
+#: /Template/Demos/index.ctp:45
+#: /Template/Demos/view.ctp:5;82
+#: /Template/Regions/edit.ctp:7
+#: /Template/Regions/index.ctp:33
+#: /Template/Regions/view.ctp:5
+#: /Template/Users/edit.ctp:7
+#: /Template/Users/index.ctp:37
+#: /Template/Users/view.ctp:5
+#: /Template/admin/Administrators/edit.ctp:7
+#: /Template/admin/Administrators/index.ctp:31
+#: /Template/admin/Administrators/view.ctp:5
+#: /Template/admin/Agencies/edit.ctp:7
+#: /Template/admin/Agencies/index.ctp:33
+#: /Template/admin/Agencies/view.ctp:5;66
+#: /Template/admin/Artists/edit.ctp:90
+#: /Template/admin/Artists/index.ctp:45
+#: /Template/admin/Artists/view.ctp:5;84;115
+#: /Template/admin/Criteria/edit.ctp:7
+#: /Template/admin/Criteria/index.ctp:33
+#: /Template/admin/Criteria/view.ctp:5;64
+#: /Template/admin/Demos/edit.ctp:7
+#: /Template/admin/Demos/index.ctp:45
+#: /Template/admin/Demos/view.ctp:5;82
+#: /Template/admin/Users/edit.ctp:7
+#: /Template/admin/Users/index.ctp:37
+#: /Template/admin/Users/view.ctp:5
+#: /Template/voilartists/artists/edit.ctp:90
+#: /Template/voilartists/artists/index.ctp:59
+#: /Template/voilartists/artists/view.ctp:5;120;149
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: /Template/Administrators/edit.ctp:16
+#: /Template/Administrators/view.ctp:4
+#: /Template/admin/Administrators/edit.ctp:16
+#: /Template/admin/Administrators/view.ctp:4
+msgid "Edit Administrator"
+msgstr ""
+
+#: /Template/Administrators/index.ctp:4
+#: /Template/Administrators/view.ctp:7
+#: /Template/admin/Administrators/index.ctp:4
+#: /Template/admin/Administrators/view.ctp:7
+msgid "New Administrator"
+msgstr ""
+
+#: /Template/Administrators/index.ctp:8
+#: /Template/admin/Administrators/index.ctp:8
+msgid "Administrators"
+msgstr ""
+
+#: /Template/Administrators/index.ctp:29
+#: /Template/Agencies/index.ctp:31
+#: /Template/Agencies/view.ctp:64
+#: /Template/Artists/index.ctp:57
+#: /Template/Artists/view.ctp:118;147
+#: /Template/Countries/index.ctp:29
+#: /Template/Countries/view.ctp:52
+#: /Template/Criteria/index.ctp:31
+#: /Template/Criteria/view.ctp:66
+#: /Template/CriteriaDemos/index.ctp:35
+#: /Template/DemoCriteria/index.ctp:37
+#: /Template/Demos/index.ctp:43
+#: /Template/Demos/view.ctp:80
+#: /Template/Regions/index.ctp:31
+#: /Template/Users/index.ctp:35
+#: /Template/admin/Administrators/index.ctp:29
+#: /Template/admin/Agencies/index.ctp:31
+#: /Template/admin/Agencies/view.ctp:64
+#: /Template/admin/Artists/index.ctp:43
+#: /Template/admin/Artists/view.ctp:82;113
+#: /Template/admin/Criteria/index.ctp:31
+#: /Template/admin/Criteria/view.ctp:62
+#: /Template/admin/Demos/index.ctp:43
+#: /Template/admin/Demos/view.ctp:80
+#: /Template/admin/Users/index.ctp:35
+#: /Template/voilartists/artists/index.ctp:57
+#: /Template/voilartists/artists/view.ctp:118;147
+msgid "View"
+msgstr ""
+
+#: /Template/Administrators/index.ctp:30
+#: /Template/Agencies/index.ctp:32
+#: /Template/Agencies/view.ctp:65
+#: /Template/Artists/index.ctp:58
+#: /Template/Artists/view.ctp:119;148
+#: /Template/Countries/index.ctp:30
+#: /Template/Countries/view.ctp:53
+#: /Template/Criteria/index.ctp:32
+#: /Template/Criteria/view.ctp:67
+#: /Template/CriteriaDemos/index.ctp:36
+#: /Template/DemoCriteria/index.ctp:38
+#: /Template/Demos/index.ctp:44
+#: /Template/Demos/view.ctp:81
+#: /Template/Regions/index.ctp:32
+#: /Template/Users/index.ctp:36
+#: /Template/admin/Administrators/index.ctp:30
+#: /Template/admin/Agencies/index.ctp:32
+#: /Template/admin/Agencies/view.ctp:65
+#: /Template/admin/Artists/index.ctp:44
+#: /Template/admin/Artists/view.ctp:83;114
+#: /Template/admin/Criteria/index.ctp:32
+#: /Template/admin/Criteria/view.ctp:63
+#: /Template/admin/Demos/index.ctp:44
+#: /Template/admin/Demos/view.ctp:81
+#: /Template/admin/Users/index.ctp:36
+#: /Template/voilartists/artists/index.ctp:58
+#: /Template/voilartists/artists/view.ctp:119;148
+msgid "Edit"
+msgstr ""
+
+#: /Template/Administrators/index.ctp:39
+#: /Template/Agencies/index.ctp:41
+#: /Template/Artists/index.ctp:67
+#: /Template/Countries/index.ctp:39
+#: /Template/Criteria/index.ctp:41
+#: /Template/CriteriaDemos/index.ctp:45
+#: /Template/DemoCriteria/index.ctp:47
+#: /Template/Demos/index.ctp:53
+#: /Template/Regions/index.ctp:41
+#: /Template/Users/index.ctp:45
+#: /Template/admin/Administrators/index.ctp:39
+#: /Template/admin/Agencies/index.ctp:41
+#: /Template/admin/Artists/index.ctp:53
+#: /Template/admin/Criteria/index.ctp:41
+#: /Template/admin/Demos/index.ctp:53
+#: /Template/admin/Users/index.ctp:45
+#: /Template/voilartists/artists/index.ctp:67
+msgid "previous"
+msgstr ""
+
+#: /Template/Administrators/index.ctp:41
+#: /Template/Agencies/index.ctp:43
+#: /Template/Artists/index.ctp:69
+#: /Template/Countries/index.ctp:41
+#: /Template/Criteria/index.ctp:43
+#: /Template/CriteriaDemos/index.ctp:47
+#: /Template/DemoCriteria/index.ctp:49
+#: /Template/Demos/index.ctp:55
+#: /Template/Regions/index.ctp:43
+#: /Template/Users/index.ctp:47
+#: /Template/admin/Administrators/index.ctp:41
+#: /Template/admin/Agencies/index.ctp:43
+#: /Template/admin/Artists/index.ctp:55
+#: /Template/admin/Criteria/index.ctp:43
+#: /Template/admin/Demos/index.ctp:55
+#: /Template/admin/Users/index.ctp:47
+#: /Template/voilartists/artists/index.ctp:69
+msgid "next"
+msgstr ""
+
+#: /Template/Administrators/login.ctp:7
+#: /Template/Users/login.ctp:7
+#: /Template/admin/Administrators/login.ctp:7
+#: /Template/admin/Users/login.ctp:7
+#: /Template/voilartists/artists/login.ctp:7
+msgid "Merci de rentrer vos nom d'utilisateur et mot de passe"
+msgstr ""
+
+#: /Template/Administrators/login.ctp:11
+#: /Template/Users/login.ctp:11
+#: /Template/admin/Administrators/login.ctp:11
+#: /Template/admin/Users/login.ctp:11
+#: /Template/voilartists/artists/login.ctp:11
+msgid "Se Connecter"
+msgstr ""
+
+#: /Template/Administrators/view.ctp:5
+#: /Template/admin/Administrators/view.ctp:5
+msgid "Delete Administrator"
+msgstr ""
+
+#: /Template/Administrators/view.ctp:14
+#: /Template/Agencies/view.ctp:43
+#: /Template/Artists/view.ctp:24
+#: /Template/Users/view.ctp:14
+#: /Template/admin/Administrators/view.ctp:14
+#: /Template/admin/Agencies/view.ctp:43
+#: /Template/admin/Artists/view.ctp:24
+#: /Template/admin/Users/view.ctp:14
+#: /Template/voilartists/artists/view.ctp:24
+msgid "Email"
+msgstr ""
+
+#: /Template/Administrators/view.ctp:18
+#: /Template/Agencies/view.ctp:44
+#: /Template/Artists/view.ctp:28
+#: /Template/admin/Administrators/view.ctp:18
+#: /Template/admin/Agencies/view.ctp:44
+#: /Template/voilartists/artists/view.ctp:28
+msgid "Password"
+msgstr ""
+
+#: /Template/Administrators/view.ctp:22
+#: /Template/Agencies/view.ctp:24;41
+#: /Template/Artists/view.ctp:56;93;132
+#: /Template/Countries/view.ctp:20;37
+#: /Template/Criteria/view.ctp:32;41
+#: /Template/DemoCriteria/view.ctp:28
+#: /Template/Demos/view.ctp:34;63
+#: /Template/Regions/view.ctp:24
+#: /Template/Users/view.ctp:34
+#: /Template/admin/Administrators/view.ctp:22
+#: /Template/admin/Agencies/view.ctp:24;41
+#: /Template/admin/Artists/view.ctp:44;61;96
+#: /Template/admin/Criteria/view.ctp:32;41
+#: /Template/admin/Demos/view.ctp:34;63
+#: /Template/admin/Users/view.ctp:34
+#: /Template/voilartists/artists/view.ctp:56;93;132
+msgid "Id"
+msgstr ""
+
+#: /Template/Administrators/view.ctp:26
+#: /Template/Agencies/view.ctp:28;48
+#: /Template/Artists/view.ctp:68;101
+#: /Template/Countries/view.ctp:24;40
+#: /Template/Criteria/view.ctp:49
+#: /Template/CriteriaDemos/view.ctp:32
+#: /Template/DemoCriteria/view.ctp:36
+#: /Template/Demos/view.ctp:46;67
+#: /Template/Regions/view.ctp:28
+#: /Template/Users/view.ctp:38
+#: /Template/admin/Administrators/view.ctp:26
+#: /Template/admin/Agencies/view.ctp:28;48
+#: /Template/admin/Artists/view.ctp:48;67;100
+#: /Template/admin/Criteria/view.ctp:47
+#: /Template/admin/Demos/view.ctp:46;67
+#: /Template/admin/Users/view.ctp:38
+#: /Template/voilartists/artists/view.ctp:68;101
+msgid "Created"
+msgstr ""
+
+#: /Template/Administrators/view.ctp:30
+#: /Template/Agencies/view.ctp:32;49
+#: /Template/Artists/view.ctp:72;102
+#: /Template/Countries/view.ctp:28;41
+#: /Template/Criteria/view.ctp:50
+#: /Template/CriteriaDemos/view.ctp:36
+#: /Template/DemoCriteria/view.ctp:40
+#: /Template/Demos/view.ctp:50;68
+#: /Template/Regions/view.ctp:32
+#: /Template/Users/view.ctp:42
+#: /Template/admin/Administrators/view.ctp:30
+#: /Template/admin/Agencies/view.ctp:32;49
+#: /Template/admin/Artists/view.ctp:52;68;101
+#: /Template/admin/Criteria/view.ctp:48
+#: /Template/admin/Demos/view.ctp:50;68
+#: /Template/admin/Users/view.ctp:42
+#: /Template/voilartists/artists/view.ctp:72;102
+msgid "Modified"
+msgstr ""
+
+#: /Template/Agencies/add.ctp:4
+#: /Template/Agencies/edit.ctp:10
+#: /Template/Agencies/view.ctp:6
+#: /Template/Artists/add.ctp:5
+#: /Template/Artists/edit.ctp:94
+#: /Template/Artists/index.ctp:5
+#: /Template/Artists/view.ctp:8
+#: /Template/admin/Agencies/add.ctp:4
+#: /Template/admin/Agencies/edit.ctp:10
+#: /Template/admin/Agencies/view.ctp:6
+#: /Template/admin/Artists/add.ctp:5
+#: /Template/admin/Artists/edit.ctp:94
+#: /Template/admin/Artists/index.ctp:5
+#: /Template/admin/Artists/view.ctp:8
+#: /Template/voilartists/artists/add.ctp:5
+#: /Template/voilartists/artists/edit.ctp:94
+#: /Template/voilartists/artists/index.ctp:5
+#: /Template/voilartists/artists/view.ctp:8
+msgid "List Agencies"
+msgstr ""
+
+#: /Template/Agencies/add.ctp:5
+#: /Template/Agencies/edit.ctp:11
+#: /Template/Agencies/index.ctp:5
+#: /Template/Agencies/view.ctp:8
+#: /Template/Artists/add.ctp:4
+#: /Template/Artists/edit.ctp:93
+#: /Template/Artists/view.ctp:6
+#: /Template/CriteriaDemos/add.ctp:9
+#: /Template/CriteriaDemos/edit.ctp:15
+#: /Template/CriteriaDemos/index.ctp:9
+#: /Template/CriteriaDemos/view.ctp:12
+#: /Template/DemoCriteria/add.ctp:5
+#: /Template/DemoCriteria/edit.ctp:11
+#: /Template/DemoCriteria/index.ctp:5
+#: /Template/DemoCriteria/view.ctp:8
+#: /Template/Demos/add.ctp:5
+#: /Template/Demos/edit.ctp:11
+#: /Template/Demos/index.ctp:5
+#: /Template/Demos/view.ctp:8
+#: /Template/admin/Agencies/add.ctp:5
+#: /Template/admin/Agencies/edit.ctp:11
+#: /Template/admin/Agencies/index.ctp:5
+#: /Template/admin/Agencies/view.ctp:8
+#: /Template/admin/Artists/add.ctp:4
+#: /Template/admin/Artists/edit.ctp:93
+#: /Template/admin/Artists/view.ctp:6
+#: /Template/admin/Demos/add.ctp:5
+#: /Template/admin/Demos/edit.ctp:11
+#: /Template/admin/Demos/index.ctp:5
+#: /Template/admin/Demos/view.ctp:8
+#: /Template/voilartists/artists/add.ctp:4
+#: /Template/voilartists/artists/edit.ctp:93
+#: /Template/voilartists/artists/view.ctp:6
+msgid "List Artists"
+msgstr ""
+
+#: /Template/Agencies/add.ctp:6
+#: /Template/Agencies/edit.ctp:12
+#: /Template/Agencies/index.ctp:6
+#: /Template/Agencies/view.ctp:9
+#: /Template/Artists/index.ctp:4
+#: /Template/Artists/view.ctp:7
+#: /Template/CriteriaDemos/add.ctp:10
+#: /Template/CriteriaDemos/edit.ctp:16
+#: /Template/CriteriaDemos/index.ctp:10
+#: /Template/CriteriaDemos/view.ctp:13
+#: /Template/DemoCriteria/add.ctp:6
+#: /Template/DemoCriteria/edit.ctp:12
+#: /Template/DemoCriteria/index.ctp:6
+#: /Template/DemoCriteria/view.ctp:9
+#: /Template/Demos/add.ctp:6
+#: /Template/Demos/edit.ctp:12
+#: /Template/Demos/index.ctp:6
+#: /Template/Demos/view.ctp:9
+#: /Template/admin/Agencies/add.ctp:6
+#: /Template/admin/Agencies/edit.ctp:12
+#: /Template/admin/Agencies/index.ctp:6
+#: /Template/admin/Agencies/view.ctp:9
+#: /Template/admin/Artists/index.ctp:4
+#: /Template/admin/Artists/view.ctp:7
+#: /Template/admin/Demos/add.ctp:6
+#: /Template/admin/Demos/edit.ctp:12
+#: /Template/admin/Demos/index.ctp:6
+#: /Template/admin/Demos/view.ctp:9
+#: /Template/voilartists/artists/index.ctp:4
+#: /Template/voilartists/artists/view.ctp:7
+msgid "New Artist"
+msgstr ""
+
+#: /Template/Agencies/add.ctp:12
+#: /Template/admin/Agencies/add.ctp:12
+msgid "Add Agency"
+msgstr ""
+
+#: /Template/Agencies/edit.ctp:18
+#: /Template/Agencies/view.ctp:4
+#: /Template/admin/Agencies/edit.ctp:18
+#: /Template/admin/Agencies/view.ctp:4
+msgid "Edit Agency"
+msgstr ""
+
+#: /Template/Agencies/index.ctp:4
+#: /Template/Agencies/view.ctp:7
+#: /Template/Artists/add.ctp:6
+#: /Template/Artists/edit.ctp:95
+#: /Template/Artists/index.ctp:6
+#: /Template/Artists/view.ctp:9
+#: /Template/admin/Agencies/index.ctp:4
+#: /Template/admin/Agencies/view.ctp:7
+#: /Template/admin/Artists/add.ctp:6
+#: /Template/admin/Artists/edit.ctp:95
+#: /Template/admin/Artists/index.ctp:6
+#: /Template/admin/Artists/view.ctp:9
+#: /Template/voilartists/artists/add.ctp:6
+#: /Template/voilartists/artists/edit.ctp:95
+#: /Template/voilartists/artists/index.ctp:6
+#: /Template/voilartists/artists/view.ctp:9
+msgid "New Agency"
+msgstr ""
+
+#: /Template/Agencies/index.ctp:10
+#: /Template/admin/Agencies/index.ctp:10
+msgid "Agencies"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:5
+#: /Template/admin/Agencies/view.ctp:5
+msgid "Delete Agency"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:16
+#: /Template/Artists/view.ctp:97
+#: /Template/Countries/view.ctp:16;39
+#: /Template/Criteria/view.ctp:45
+#: /Template/Demos/view.ctp:22;64
+#: /Template/Regions/view.ctp:20
+#: /Template/admin/Agencies/view.ctp:16
+#: /Template/admin/Demos/view.ctp:22;64
+#: /Template/voilartists/artists/view.ctp:97
+msgid "Title"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:20
+#: /Template/Artists/view.ctp:32
+#: /Template/admin/Agencies/view.ctp:20
+#: /Template/voilartists/artists/view.ctp:32
+msgid "Slug"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:37
+#: /Template/admin/Agencies/view.ctp:37
+msgid "Related Artists"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:42
+#: /Template/admin/Agencies/view.ctp:42
+msgid "Agency Id"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:45
+#: /Template/Artists/view.ctp:36
+#: /Template/Users/view.ctp:22
+#: /Template/admin/Agencies/view.ctp:45
+#: /Template/admin/Artists/view.ctp:32
+#: /Template/admin/Users/view.ctp:22
+#: /Template/voilartists/artists/view.ctp:36
+msgid "First Name"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:46
+#: /Template/Artists/view.ctp:40
+#: /Template/Users/view.ctp:26
+#: /Template/admin/Agencies/view.ctp:46
+#: /Template/admin/Artists/view.ctp:36
+#: /Template/admin/Users/view.ctp:26
+#: /Template/voilartists/artists/view.ctp:40
+msgid "Last Name"
+msgstr ""
+
+#: /Template/Agencies/view.ctp:47
+#: /Template/Artists/view.ctp:44
+#: /Template/admin/Agencies/view.ctp:47
+#: /Template/admin/Artists/view.ctp:40
+#: /Template/voilartists/artists/view.ctp:44
+msgid "Facebook"
+msgstr ""
+
+#: /Template/Artists/add.ctp:7
+#: /Template/Artists/edit.ctp:96
+#: /Template/Artists/index.ctp:7
+#: /Template/Artists/view.ctp:10
+#: /Template/Criteria/add.ctp:5
+#: /Template/Criteria/edit.ctp:11
+#: /Template/Criteria/index.ctp:5
+#: /Template/Criteria/view.ctp:8
+#: /Template/CriteriaDemos/add.ctp:5
+#: /Template/CriteriaDemos/edit.ctp:11
+#: /Template/CriteriaDemos/index.ctp:5
+#: /Template/CriteriaDemos/view.ctp:8
+#: /Template/Demos/add.ctp:4
+#: /Template/Demos/edit.ctp:10
+#: /Template/Demos/view.ctp:6
+#: /Template/admin/Artists/edit.ctp:96
+#: /Template/admin/Demos/add.ctp:4
+#: /Template/admin/Demos/edit.ctp:10
+#: /Template/admin/Demos/view.ctp:6
+#: /Template/voilartists/artists/edit.ctp:96
+#: /Template/voilartists/artists/index.ctp:7
+#: /Template/voilartists/artists/view.ctp:10
+msgid "List Demos"
+msgstr ""
+
+#: /Template/Artists/add.ctp:8
+#: /Template/Artists/edit.ctp:97
+#: /Template/Artists/index.ctp:8
+#: /Template/Artists/view.ctp:11
+#: /Template/Criteria/add.ctp:6
+#: /Template/Criteria/edit.ctp:12
+#: /Template/Criteria/index.ctp:6
+#: /Template/Criteria/view.ctp:9
+#: /Template/CriteriaDemos/add.ctp:6
+#: /Template/CriteriaDemos/edit.ctp:12
+#: /Template/CriteriaDemos/index.ctp:6
+#: /Template/CriteriaDemos/view.ctp:9
+#: /Template/DemoCriteria/add.ctp:8
+#: /Template/DemoCriteria/edit.ctp:14
+#: /Template/DemoCriteria/index.ctp:8
+#: /Template/DemoCriteria/view.ctp:11
+#: /Template/Demos/index.ctp:4
+#: /Template/Demos/view.ctp:7
+#: /Template/admin/Artists/add.ctp:8
+#: /Template/admin/Artists/edit.ctp:97
+#: /Template/admin/Artists/index.ctp:8
+#: /Template/admin/Artists/view.ctp:11
+#: /Template/admin/Criteria/add.ctp:6
+#: /Template/admin/Criteria/edit.ctp:12
+#: /Template/admin/Criteria/index.ctp:6
+#: /Template/admin/Criteria/view.ctp:9
+#: /Template/admin/Demos/index.ctp:4
+#: /Template/admin/Demos/view.ctp:7
+#: /Template/voilartists/artists/add.ctp:8
+#: /Template/voilartists/artists/edit.ctp:97
+#: /Template/voilartists/artists/index.ctp:8
+#: /Template/voilartists/artists/view.ctp:11
+msgid "New Demo"
+msgstr ""
+
+#: /Template/Artists/add.ctp:9
+#: /Template/Artists/edit.ctp:98
+#: /Template/Artists/index.ctp:9
+#: /Template/Artists/view.ctp:12
+#: /Template/Criteria/add.ctp:4
+#: /Template/Criteria/edit.ctp:10
+#: /Template/Criteria/view.ctp:6
+#: /Template/CriteriaDemos/add.ctp:7
+#: /Template/CriteriaDemos/edit.ctp:13
+#: /Template/CriteriaDemos/index.ctp:7
+#: /Template/CriteriaDemos/view.ctp:10
+#: /Template/DemoCriteria/add.ctp:9
+#: /Template/DemoCriteria/edit.ctp:15
+#: /Template/DemoCriteria/index.ctp:9
+#: /Template/DemoCriteria/view.ctp:12
+#: /Template/Demos/add.ctp:7
+#: /Template/Demos/edit.ctp:13
+#: /Template/Demos/index.ctp:7
+#: /Template/Demos/view.ctp:10
+#: /Template/admin/Artists/edit.ctp:98
+#: /Template/admin/Criteria/add.ctp:4
+#: /Template/admin/Criteria/edit.ctp:10
+#: /Template/admin/Criteria/view.ctp:6
+#: /Template/admin/Demos/add.ctp:7
+#: /Template/admin/Demos/edit.ctp:13
+#: /Template/admin/Demos/index.ctp:7
+#: /Template/admin/Demos/view.ctp:10
+#: /Template/voilartists/artists/edit.ctp:98
+#: /Template/voilartists/artists/index.ctp:9
+#: /Template/voilartists/artists/view.ctp:12
+msgid "List Criteria"
+msgstr ""
+
+#: /Template/Artists/add.ctp:10
+#: /Template/Artists/edit.ctp:99
+#: /Template/Artists/index.ctp:10
+#: /Template/Artists/view.ctp:13
+#: /Template/Criteria/index.ctp:4
+#: /Template/Criteria/view.ctp:7
+#: /Template/CriteriaDemos/add.ctp:8
+#: /Template/CriteriaDemos/edit.ctp:14
+#: /Template/CriteriaDemos/index.ctp:8
+#: /Template/CriteriaDemos/view.ctp:11
+#: /Template/DemoCriteria/add.ctp:10
+#: /Template/DemoCriteria/edit.ctp:16
+#: /Template/DemoCriteria/index.ctp:10
+#: /Template/DemoCriteria/view.ctp:13
+#: /Template/Demos/add.ctp:8
+#: /Template/Demos/edit.ctp:14
+#: /Template/Demos/index.ctp:8
+#: /Template/Demos/view.ctp:11
+#: /Template/admin/Artists/edit.ctp:99
+#: /Template/admin/Criteria/index.ctp:4
+#: /Template/admin/Criteria/view.ctp:7
+#: /Template/admin/Demos/add.ctp:8
+#: /Template/admin/Demos/edit.ctp:14
+#: /Template/admin/Demos/index.ctp:8
+#: /Template/admin/Demos/view.ctp:11
+#: /Template/voilartists/artists/edit.ctp:99
+#: /Template/voilartists/artists/index.ctp:10
+#: /Template/voilartists/artists/view.ctp:13
+msgid "New Criterion"
+msgstr ""
+
+#: /Template/Artists/add.ctp:16
+#: /Template/admin/Artists/add.ctp:16
+#: /Template/voilartists/artists/add.ctp:16
+msgid "Add Artist"
+msgstr ""
+
+#: /Template/Artists/edit.ctp:105
+#: /Template/Artists/view.ctp:4
+#: /Template/admin/Artists/edit.ctp:105
+#: /Template/admin/Artists/view.ctp:4
+#: /Template/voilartists/artists/edit.ctp:105
+#: /Template/voilartists/artists/view.ctp:4
+msgid "Edit Artist"
+msgstr ""
+
+#: /Template/Artists/index.ctp:14
+#: /Template/admin/Artists/index.ctp:14
+#: /Template/voilartists/artists/index.ctp:14
+msgid "Artists"
+msgstr ""
+
+#: /Template/Artists/view.ctp:5
+#: /Template/admin/Artists/view.ctp:5
+#: /Template/voilartists/artists/view.ctp:5
+msgid "Delete Artist"
+msgstr ""
+
+#: /Template/Artists/view.ctp:20
+#: /Template/admin/Artists/view.ctp:20
+#: /Template/voilartists/artists/view.ctp:20
+msgid "Agency"
+msgstr ""
+
+#: /Template/Artists/view.ctp:48
+#: /Template/voilartists/artists/view.ctp:48
+msgid "Twitter"
+msgstr ""
+
+#: /Template/Artists/view.ctp:52
+#: /Template/voilartists/artists/view.ctp:52
+msgid "Linkedin"
+msgstr ""
+
+#: /Template/Artists/view.ctp:60
+#: /Template/voilartists/artists/view.ctp:60
+msgid "Nbrdemo"
+msgstr ""
+
+#: /Template/Artists/view.ctp:64
+#: /Template/Demos/view.ctp:42
+#: /Template/admin/Demos/view.ctp:42
+#: /Template/voilartists/artists/view.ctp:64
+msgid "Expiration"
+msgstr ""
+
+#: /Template/Artists/view.ctp:76;95
+#: /Template/Criteria/view.ctp:43
+#: /Template/Demos/view.ctp:54
+#: /Template/admin/Demos/view.ctp:54
+#: /Template/voilartists/artists/view.ctp:76;95
+msgid "Active"
+msgstr ""
+
+#: /Template/Artists/view.ctp:77;81
+#: /Template/Demos/view.ctp:55
+#: /Template/admin/Demos/view.ctp:55
+#: /Template/voilartists/artists/view.ctp:77;81
+msgid "Yes"
+msgstr ""
+
+#: /Template/Artists/view.ctp:77;81
+#: /Template/Demos/view.ctp:55
+#: /Template/admin/Demos/view.ctp:55
+#: /Template/voilartists/artists/view.ctp:77;81
+msgid "No"
+msgstr ""
+
+#: /Template/Artists/view.ctp:80
+#: /Template/voilartists/artists/view.ctp:80
+msgid "Accept Agence Edit"
+msgstr ""
+
+#: /Template/Artists/view.ctp:85
+#: /Template/voilartists/artists/view.ctp:85
+msgid "Description"
+msgstr ""
+
+#: /Template/Artists/view.ctp:89
+#: /Template/Criteria/view.ctp:37
+#: /Template/voilartists/artists/view.ctp:89
+msgid "Related Demos"
+msgstr ""
+
+#: /Template/Artists/view.ctp:94
+#: /Template/Criteria/view.ctp:42
+#: /Template/admin/Artists/view.ctp:66;99
+#: /Template/admin/Criteria/view.ctp:46
+#: /Template/voilartists/artists/view.ctp:94
+msgid "Artist Id"
+msgstr ""
+
+#: /Template/Artists/view.ctp:96
+#: /Template/Criteria/view.ctp:44
+#: /Template/admin/Artists/view.ctp:62
+#: /Template/admin/Criteria/view.ctp:42
+#: /Template/voilartists/artists/view.ctp:96
+msgid "Order"
+msgstr ""
+
+#: /Template/Artists/view.ctp:98
+#: /Template/Criteria/view.ctp:46
+#: /Template/Demos/view.ctp:26
+#: /Template/admin/Demos/view.ctp:26
+#: /Template/voilartists/artists/view.ctp:98
+msgid "Customer"
+msgstr ""
+
+#: /Template/Artists/view.ctp:99
+#: /Template/Criteria/view.ctp:47
+#: /Template/Demos/view.ctp:30
+#: /Template/admin/Artists/view.ctp:64
+#: /Template/admin/Criteria/view.ctp:44
+#: /Template/admin/Demos/view.ctp:30
+#: /Template/voilartists/artists/view.ctp:99
+msgid "Url"
+msgstr ""
+
+#: /Template/Artists/view.ctp:100
+#: /Template/Criteria/view.ctp:48
+#: /Template/admin/Artists/view.ctp:65
+#: /Template/admin/Criteria/view.ctp:45
+#: /Template/voilartists/artists/view.ctp:100
+msgid "End Date"
+msgstr ""
+
+#: /Template/Artists/view.ctp:128
+#: /Template/Demos/view.ctp:59
+#: /Template/admin/Demos/view.ctp:59
+#: /Template/voilartists/artists/view.ctp:128
+msgid "Related Criteria"
+msgstr ""
+
+#: /Template/Artists/view.ctp:133
+#: /Template/Criteria/view.ctp:16
+#: /Template/admin/Criteria/view.ctp:16
+#: /Template/voilartists/artists/view.ctp:133
+msgid "Title Fr"
+msgstr ""
+
+#: /Template/Artists/view.ctp:134
+#: /Template/Criteria/view.ctp:20
+#: /Template/admin/Criteria/view.ctp:20
+#: /Template/voilartists/artists/view.ctp:134
+msgid "Title En"
+msgstr ""
+
+#: /Template/Artists/view.ctp:135
+#: /Template/Criteria/view.ctp:24
+#: /Template/admin/Criteria/view.ctp:24
+#: /Template/voilartists/artists/view.ctp:135
+msgid "Title Es"
+msgstr ""
+
+#: /Template/Artists/view.ctp:136
+#: /Template/Criteria/view.ctp:28
+#: /Template/admin/Criteria/view.ctp:28
+#: /Template/voilartists/artists/view.ctp:136
+msgid "Title It"
+msgstr ""
+
+#: /Template/Cell/Criteria/display.ctp:52
+msgid "Genre"
+msgstr ""
+
+#: /Template/Cell/Criteria/display.ctp:77
+msgid "ANGLAIS"
+msgstr ""
+
+#: /Template/Countries/add.ctp:4
+#: /Template/Countries/edit.ctp:10
+#: /Template/Countries/view.ctp:6
+#: /Template/Regions/add.ctp:5
+#: /Template/Regions/edit.ctp:11
+#: /Template/Regions/index.ctp:5
+#: /Template/Regions/view.ctp:8
+msgid "List Countries"
+msgstr ""
+
+#: /Template/Countries/add.ctp:5
+#: /Template/Countries/edit.ctp:11
+#: /Template/Countries/index.ctp:5
+#: /Template/Countries/view.ctp:8
+#: /Template/Regions/add.ctp:4
+#: /Template/Regions/edit.ctp:10
+#: /Template/Regions/view.ctp:6
+msgid "List Regions"
+msgstr ""
+
+#: /Template/Countries/add.ctp:6
+#: /Template/Countries/edit.ctp:12
+#: /Template/Countries/index.ctp:6
+#: /Template/Countries/view.ctp:9
+#: /Template/Regions/index.ctp:4
+#: /Template/Regions/view.ctp:7
+msgid "New Region"
+msgstr ""
+
+#: /Template/Countries/add.ctp:12
+msgid "Add Country"
+msgstr ""
+
+#: /Template/Countries/edit.ctp:18
+#: /Template/Countries/view.ctp:4
+msgid "Edit Country"
+msgstr ""
+
+#: /Template/Countries/index.ctp:4
+#: /Template/Countries/view.ctp:7
+#: /Template/Regions/add.ctp:6
+#: /Template/Regions/edit.ctp:12
+#: /Template/Regions/index.ctp:6
+#: /Template/Regions/view.ctp:9
+msgid "New Country"
+msgstr ""
+
+#: /Template/Countries/index.ctp:10
+msgid "Countries"
+msgstr ""
+
+#: /Template/Countries/view.ctp:5
+msgid "Delete Country"
+msgstr ""
+
+#: /Template/Countries/view.ctp:33
+msgid "Related Regions"
+msgstr ""
+
+#: /Template/Countries/view.ctp:38
+msgid "Country Id"
+msgstr ""
+
+#: /Template/Criteria/add.ctp:12
+#: /Template/admin/Criteria/add.ctp:12
+msgid "Add Criterion"
+msgstr ""
+
+#: /Template/Criteria/edit.ctp:18
+#: /Template/Criteria/view.ctp:4
+#: /Template/admin/Criteria/edit.ctp:18
+#: /Template/admin/Criteria/view.ctp:4
+msgid "Edit Criterion"
+msgstr ""
+
+#: /Template/Criteria/index.ctp:10
+#: /Template/admin/Criteria/index.ctp:10
+msgid "Criteria"
+msgstr ""
+
+#: /Template/Criteria/view.ctp:5
+#: /Template/admin/Criteria/view.ctp:5
+msgid "Delete Criterion"
+msgstr ""
+
+#: /Template/CriteriaDemos/add.ctp:4
+#: /Template/CriteriaDemos/edit.ctp:10
+#: /Template/CriteriaDemos/view.ctp:6
+msgid "List Criteria Demos"
+msgstr ""
+
+#: /Template/CriteriaDemos/add.ctp:16
+msgid "Add Criteria Demo"
+msgstr ""
+
+#: /Template/CriteriaDemos/edit.ctp:22
+#: /Template/CriteriaDemos/view.ctp:4
+msgid "Edit Criteria Demo"
+msgstr ""
+
+#: /Template/CriteriaDemos/index.ctp:4
+#: /Template/CriteriaDemos/view.ctp:7
+msgid "New Criteria Demo"
+msgstr ""
+
+#: /Template/CriteriaDemos/index.ctp:14
+msgid "Criteria Demos"
+msgstr ""
+
+#: /Template/CriteriaDemos/view.ctp:5
+msgid "Delete Criteria Demo"
+msgstr ""
+
+#: /Template/CriteriaDemos/view.ctp:20
+#: /Template/DemoCriteria/view.ctp:20
+msgid "Demo"
+msgstr ""
+
+#: /Template/CriteriaDemos/view.ctp:24
+msgid "Criterion"
+msgstr ""
+
+#: /Template/CriteriaDemos/view.ctp:28
+#: /Template/DemoCriteria/view.ctp:24
+#: /Template/Demos/view.ctp:18
+#: /Template/admin/Demos/view.ctp:18
+msgid "Artist"
+msgstr ""
+
+#: /Template/DemoCriteria/add.ctp:4
+#: /Template/DemoCriteria/edit.ctp:10
+#: /Template/DemoCriteria/view.ctp:6
+#: /Template/admin/Artists/add.ctp:9
+#: /Template/admin/Artists/index.ctp:9
+#: /Template/admin/Artists/view.ctp:12
+#: /Template/voilartists/artists/add.ctp:9
+msgid "List Demo Criteria"
+msgstr ""
+
+#: /Template/DemoCriteria/add.ctp:7
+#: /Template/DemoCriteria/edit.ctp:13
+#: /Template/DemoCriteria/index.ctp:7
+#: /Template/DemoCriteria/view.ctp:10
+#: /Template/admin/Artists/add.ctp:7
+#: /Template/admin/Artists/index.ctp:7
+#: /Template/admin/Artists/view.ctp:10
+#: /Template/admin/Criteria/add.ctp:5
+#: /Template/admin/Criteria/edit.ctp:11
+#: /Template/admin/Criteria/index.ctp:5
+#: /Template/admin/Criteria/view.ctp:8
+#: /Template/voilartists/artists/add.ctp:7
+msgid "List Demo"
+msgstr ""
+
+#: /Template/DemoCriteria/add.ctp:16
+msgid "Add Demo Criterium"
+msgstr ""
+
+#: /Template/DemoCriteria/edit.ctp:22
+#: /Template/DemoCriteria/view.ctp:4
+msgid "Edit Demo Criterium"
+msgstr ""
+
+#: /Template/DemoCriteria/index.ctp:4
+#: /Template/DemoCriteria/view.ctp:7
+#: /Template/admin/Artists/add.ctp:10
+#: /Template/admin/Artists/index.ctp:10
+#: /Template/voilartists/artists/add.ctp:10
+msgid "New Demo Criterium"
+msgstr ""
+
+#: /Template/DemoCriteria/index.ctp:14
+msgid "Demo Criteria"
+msgstr ""
+
+#: /Template/DemoCriteria/view.ctp:5
+msgid "Delete Demo Criterium"
+msgstr ""
+
+#: /Template/DemoCriteria/view.ctp:32
+#: /Template/admin/Artists/view.ctp:98
+msgid "Criteria Id"
+msgstr ""
+
+#: /Template/Demos/add.ctp:14
+#: /Template/admin/Demos/add.ctp:14
+msgid "Add Demo"
+msgstr ""
+
+#: /Template/Demos/edit.ctp:20
+#: /Template/Demos/view.ctp:4
+#: /Template/admin/Demos/edit.ctp:20
+#: /Template/admin/Demos/view.ctp:4
+msgid "Edit Demo"
+msgstr ""
+
+#: /Template/Demos/index.ctp:12
+#: /Template/admin/Demos/index.ctp:12
+msgid "Demos"
+msgstr ""
+
+#: /Template/Demos/search.ctp:152
+msgid "title"
+msgstr ""
+
+#: /Template/Demos/view.ctp:5
+#: /Template/admin/Demos/view.ctp:5
+msgid "Delete Demo"
+msgstr ""
+
+#: /Template/Demos/view.ctp:38
+#: /Template/admin/Demos/view.ctp:38
+msgid "Sort Order"
+msgstr ""
+
+#: /Template/Demos/view.ctp:65
+#: /Template/admin/Demos/view.ctp:65
+msgid "Group"
+msgstr ""
+
+#: /Template/Demos/view.ctp:66
+#: /Template/admin/Demos/view.ctp:66
+msgid "Subgroup"
+msgstr ""
+
+#: /Template/Regions/add.ctp:12
+msgid "Add Region"
+msgstr ""
+
+#: /Template/Regions/edit.ctp:18
+#: /Template/Regions/view.ctp:4
+msgid "Edit Region"
+msgstr ""
+
+#: /Template/Regions/index.ctp:10
+msgid "Regions"
+msgstr ""
+
+#: /Template/Regions/view.ctp:5
+msgid "Delete Region"
+msgstr ""
+
+#: /Template/Regions/view.ctp:16
+msgid "Country"
+msgstr ""
+
+#: /Template/Users/add.ctp:4
+#: /Template/Users/edit.ctp:10
+#: /Template/Users/view.ctp:6
+#: /Template/admin/Users/add.ctp:4
+#: /Template/admin/Users/edit.ctp:10
+#: /Template/admin/Users/view.ctp:6
+msgid "List Users"
+msgstr ""
+
+#: /Template/Users/add.ctp:10
+#: /Template/admin/Users/add.ctp:10
+msgid "Add User"
+msgstr ""
+
+#: /Template/Users/edit.ctp:16
+#: /Template/Users/view.ctp:4
+#: /Template/admin/Users/edit.ctp:16
+#: /Template/admin/Users/view.ctp:4
+msgid "Edit User"
+msgstr ""
+
+#: /Template/Users/index.ctp:4
+#: /Template/Users/view.ctp:7
+#: /Template/admin/Users/index.ctp:4
+#: /Template/admin/Users/view.ctp:7
+msgid "New User"
+msgstr ""
+
+#: /Template/Users/index.ctp:8
+#: /Template/admin/Users/index.ctp:8
+msgid "Users"
+msgstr ""
+
+#: /Template/Users/view.ctp:5
+#: /Template/admin/Users/view.ctp:5
+msgid "Delete User"
+msgstr ""
+
+#: /Template/Users/view.ctp:18
+#: /Template/admin/Artists/view.ctp:28
+#: /Template/admin/Users/view.ctp:18
+msgid "Passw0rd"
+msgstr ""
+
+#: /Template/Users/view.ctp:30
+#: /Template/admin/Users/view.ctp:30
+msgid "Company"
+msgstr ""
+
+#: /Template/admin/Artists/view.ctp:13
+msgid "New Demo Criterion"
+msgstr ""
+
+#: /Template/admin/Artists/view.ctp:57
+#: /Template/admin/Criteria/view.ctp:37
+msgid "Related Demo"
+msgstr ""
+
+#: /Template/admin/Artists/view.ctp:63
+#: /Template/admin/Criteria/view.ctp:43
+msgid "Tile"
+msgstr ""
+
+#: /Template/admin/Artists/view.ctp:92
+msgid "Related Demo Criteria"
+msgstr ""
+
+#: /Template/admin/Artists/view.ctp:97
+msgid "Demo Id"
+msgstr ""
+
+#: /Template/Error/error400.ctp:36
+#: /Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: /Template/Error/error400.ctp:38
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: /Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:454
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:154
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:158
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:247
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:249
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:113
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:150
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153;328
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;329
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;330
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;331
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:166
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:167
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169;341
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170;342
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;343
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;344
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:300
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:364
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:365
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;125;312
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;128;315
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;131;318
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;134;321
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;137
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;140
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;143
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Network/Response.php:1417
+msgid "The requested file was not found"
+msgstr ""
+
+#: ORM/RulesChecker.php:49
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:83
+msgid "This value does not exist"
+msgstr ""
+
+#: Utility/Text.php:724
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:1406
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:928
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:931
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:770
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:530
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:531
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:532
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:533
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:534
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:535
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:536
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:537
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:538
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "December"
+msgstr ""
+

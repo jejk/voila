@@ -2,6 +2,8 @@
 namespace App\Controller\Admin;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
+use Cake\I18n\Time;
 
 /**
  * Artists Controller
@@ -10,6 +12,11 @@ use App\Controller\AppController;
  */
 class ArtistsController extends AppController
 {
+		public function beforeFilter(Event $event)
+    {
+      //  $this->Security->config('unlockedActions', ['edit']);
+        $this->Security->unlockedFields = array('password1','password2');
+    }
 
     /**
      * Index method
@@ -37,7 +44,7 @@ class ArtistsController extends AppController
     public function view($id = null)
     {
         $artist = $this->Artists->get($id, [
-            'contain' => ['Agencies', 'Demo', 'DemoCriteria']
+            'contain' => ['Agencies', 'Demos','Criteria']
         ]);
 
         $this->set('artist', $artist);
@@ -73,14 +80,36 @@ class ArtistsController extends AppController
      * @return \Cake\Network\Response|void Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Network\Exception\NotFoundException When record not found.
      */
-    public function edit($id = null)
+  public function edit($id = null)
     {
         $artist = $this->Artists->get($id, [
-            'contain' => []
+            'contain' => ['Criteria']
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
+        	
+			
             $artist = $this->Artists->patchEntity($artist, $this->request->data);
             if ($this->Artists->save($artist)) {
+            	$artisttemp = $artist->toArray();
+				
+			 
+			 
+			 
+				//update demo expiration
+				$artisttemp2 =  $artisttemp['expiration'];
+            	$this->loadModel('Demos');
+            	$this->Demos->query()
+			        ->update()
+			        ->set(['expiration' => $artisttemp2->format('Y-m-d')])
+			        ->where(['artist_id' => $id])
+			        ->execute();
+					
+				//Update artists criteria
+				$artisttemp3 =  $artisttemp;
+				
+				pr($artist->toArray());die();
+ 
+			        
                 $this->Flash->success(__('The artist has been saved.'));
                 return $this->redirect(['action' => 'index']);
             } else {
@@ -88,8 +117,21 @@ class ArtistsController extends AppController
             }
         }
         $agencies = $this->Artists->Agencies->find('list', ['limit' => 200]);
-        $this->set(compact('artist', 'agencies'));
+        $criteria = $this->Artists->Criteria->find('list', ['limit' => 200]);
+		$demos = $this->Artists->Demos->find('all', [
+		    'conditions' => ['Demos.artist_id ' => $id],
+		    'order' => ['Demos.sort_order' => 'ASC'] 
+		]);
+		
+		
+
+		//debug($demos->toArray());
+		//exit(pr($demos));
+		//$entitydemo = $demos->newEntity($this->request->data());
+        $this->set(compact('artist', 'agencies', 'criteria','demos'));
         $this->set('_serialize', ['artist']);
+		//$this->set('_serialize', ['demos']);
+		
     }
 
     /**
